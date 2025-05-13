@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3b4465, #1c1e2f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .role-button {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+    background: #5a85ff;
+    text-align: center;
+  }
+  
+  .role-button:hover {
+    background: #2a65ff;
+  }
+  
+  .doctor {
+    background: #4CAF50;
+  }
+  
+  .doctor:hover {
+    background: #3e8e41;
+  }
+  
+  .patient {
+    background: #2196F3;
+  }
+  
+  .patient:hover {
+    background: #1976D2;
+  }
+  
+  .form-container {
+    background: #2e3550;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .themed-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .themed-form input,
+  .themed-form select {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .themed-form button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #a7e245;
+    color: #1c1e2f;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .themed-form button:hover {
+    background-color: #8fcf30;
+  }
+  
